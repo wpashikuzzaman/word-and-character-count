@@ -1,0 +1,102 @@
+
+body{
+    background-color: #1b1b20;
+}
+.container {
+    height: 100vh;
+    background-image: url(https://www.livechat.com/typing-speed-test/stars.png),url(https://www.livechat.com/typing-speed-test/stars.png);
+    background-size: 572px auto;
+    background-position: calc(50% - 750px),calc(50% + 750px);
+    background-repeat: repeat-y;
+    padding: 100px;
+}
+
+.counter-card {
+    background-color: #303037;
+    border-radius: 0.5rem;
+    border: 0 solid #d4d4d7;
+    padding: 3rem;
+}
+
+.container h1 { 
+    font-size: 28px;
+    color: #fff; 
+    margin-bottom: 15px;
+} 
+
+.container h3 { 
+    font-size: 20px; 
+    color: #fff;
+} 
+
+.heading {
+    border: 2px solid #FFD000;
+    padding: 10px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+
+.story {
+    color: #fff;
+    font-weight: normal;
+    margin-top: 30px;
+}
+
+
+#area {
+    height: 200px;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 15px;
+    color: #000;
+    outline: none;
+    border: 2px solid #FFD000;
+    border-radius: 0.5rem;
+}
+
+#area:focus { 
+    border: 2px solid green;
+    outline: none; 
+
+} 
+
+.result { 
+    color: #fff; 
+    font-size: 20px; 
+    text-align: center; 
+    font-weight: 700; 
+    padding: 5px; 
+    border: 2px solid #FFD000; 
+    margin-top: 10px; 
+    border-radius: 0.5rem;
+} 
+
+#word, 
+#char { 
+    font-size: 25px; 
+    font-weight: bold; 
+    text-decoration: underline; 
+} 
+
+.Reset,
+.stp-btn,
+.randomize {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    min-height: 44px;
+    min-width: 219px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    border: none;
+    font-weight: 700;
+}
+.randomize:hover,
+.stp-btn:hover
+.Reset:hover {
+    background-color: #FFD000 !important;
+}
