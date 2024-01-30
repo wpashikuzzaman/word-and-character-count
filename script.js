@@ -51,6 +51,7 @@ function result() {
     story.style.visibility = 'visible';
     story.style.border = '2px solid #FFD000'; // Fixed border property
     story.style.padding = '10px'; // Fixed padding property
+    story.style.borderRadius ="0.5rem";
   }
   
   randomize.addEventListener('click', result);
